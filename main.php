@@ -36,26 +36,34 @@
             </div>
             <div class="about-me__knowledge">
                 <?php
-                include 'knowledge.inc.php';
-                echo $a, ' ', $b, ' ', $c . '<br>';
-
-                $a = 10;
-                $b = 20;
-                $c = $a + $b;
-                echo $c . '<br>';
-                echo $d;
+                    include 'knowledge.inc.php';
+                    echo $a, ' ', $b, ' ', $c;
                 ?>
+                <br>
+                <?php       
+                    $a = 10;
+                    $b = 20;
+                    $c = $a + $b;
+                    echo 'это результат сложения 10+20: ' . $c;
+                ?>
+                <br>
+                <?php
+                    echo 'это результат выполнения условия: ' . $d;  
+                ?>
+                
+                
+  
             </div>
             <div class="about-me__text">
                 <article>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nulla neque repudiandae necessitatibus 
-                        dolor deleniti fuga laudantium quas exercitationem eaque atque consequatur suscipit quos alias inventore 
-                        libero eius impedit deserunt, in commodi ducimus dicta provident accusamus qui. Corrupti natus officiis 
-                        provident nostrum! Odit, quam? Cumque voluptates vero quibusdam omnis, doloribus dolorem unde laborum debitis 
-                        quam voluptatem, quae neque possimus non delectus nobis id at voluptatibus. Odio laborum similique repudiandae 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nulla neque repudiandae necessitatibus
+                        dolor deleniti fuga laudantium quas exercitationem eaque atque consequatur suscipit quos alias inventore
+                        libero eius impedit deserunt, in commodi ducimus dicta provident accusamus qui. Corrupti natus officiis
+                        provident nostrum! Odit, quam? Cumque voluptates vero quibusdam omnis, doloribus dolorem unde laborum debitis
+                        quam voluptatem, quae neque possimus non delectus nobis id at voluptatibus. Odio laborum similique repudiandae
                         voluptatem aperiam quidem doloribus voluptas vel autem, labore ducimus excepturi minima exercitationem corrupti
-                         fuga quis rerum laudantium ad voluptatibus. Atque porro maxime eius blanditiis, nulla nesciunt nemo cum nostrum 
-                         est suscipit!</p>
+                        fuga quis rerum laudantium ad voluptatibus. Atque porro maxime eius blanditiis, nulla nesciunt nemo cum nostrum
+                        est suscipit!</p>
                 </article>
             </div>
         </div>
@@ -63,7 +71,6 @@
             <?php
             include 'footer.inc.php';
             ?>
-
         </footer>
     </div>
 </body>
